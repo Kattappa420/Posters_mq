@@ -1,0 +1,169 @@
+body{
+    background: rgb(255, 255, 255);
+}
+.poster{
+    width: 570px;
+    height: 650px;
+    background: linear-gradient(135deg, #b30000, #4d0000, #0a0a0a); /* Deadpool-inspired gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 2%;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    /* border: 8px solid #000; */
+}
+.d2{
+    width: 320px;
+    z-index: 1;
+    top: 70px;
+    left: 655px;
+    position: absolute;
+}
+.mf{
+    z-index: 1;
+    top: 165px;
+    position: absolute;
+    color: rgb(151, 140, 140);
+    font-size: larger;
+}
+
+.n{
+    width: 60px;
+    top: 220px;
+    position: absolute;
+    left: 889px;
+}
+
+.bd{
+    position: absolute;
+    z-index: 1;
+    top: 220px;
+    left: 580px;
+    width: 320px;
+    
+}
+.bd1{
+    position: absolute;
+    z-index: 1;
+    width: 265px;
+    top: 250px;
+    left: 584px;
+}
+.ic{
+    position: absolute;
+    top: 15px;
+    right: 36%;
+    width: 150px;
+    height: auto;
+}
+.ad{
+    top: 45px;
+    width: 70px;
+    position: absolute;
+    font-size: xx-large;
+    left: 31%;
+}
+.adr{
+    top: 73px;
+    position: absolute;
+    font-size: small;
+    left: 34%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fr{
+    top: 130px;
+    position: absolute;
+    width: 254px;
+    left: 44%;
+    z-index: 1;
+}
+.dpf{
+    top: 60px;
+    position: absolute;
+    opacity: 0.2;
+    width: 40%;
+}
+.game1{
+    border: 1px solid black;
+    padding: 10px;
+    top: 310px;
+    position: absolute;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    /* transform: rotate(8deg); */
+    left: 590px;
+    /* transform: rotate(8deg); */
+    border-radius: 4px;
+    background-color: rgb(170, 167, 161);
+    opacity: 0.8;
+    
+}
+.game3{
+    border: 1px solid black;
+    top: 320px;
+    position: absolute;
+    font-size: x-large;
+    /* transform: rotate(-10deg); */
+    left: 850px;
+    /* transform: rotate(8deg); */
+    padding: 10px;
+    padding-right: 11px;
+    border-radius: 4px;
+    background-color: rgb(170, 167, 161);
+    opacity: 0.8;
+}
+.game2{
+    top: 450px;
+    position: absolute;
+    font-size: x-large;
+    /* transform: rotate(-10deg); */
+    left: 590px;
+    /* transform: rotate(-8deg); */
+    border: 1px solid black;
+    padding: 10px;
+    padding-right: 49px;
+    border-radius: 4px;
+    background-color: rgb(170, 167, 161);
+    opacity: 0.8;
+}
+.game4{
+    top: 460px;
+    position: absolute;
+    font-size: x-large;
+    /* transform: rotate(30deg); */
+    left: 850px;
+    /* transform: rotate(8deg); */
+    border: 1px solid black;
+    padding: 10px;
+    padding-right: 57px;
+    border-radius: 4px;
+    background-color: rgb(170, 167, 161);
+    opacity: 0.8;
+}
+
+.det1{
+    top: 585px;
+    position: absolute;
+    font-size: x-large;
+    color: rgb(191, 179, 179);
+    left: 32%;
+}
+.det2{
+    top: 598px;
+    position: absolute;
+    font-size: x-large;
+    color: rgb(191, 179, 179);
+    left: 51%;
+}
+.separator {
+    top: 580px;
+    position: absolute;
+    width: 1px; 
+    background-color: rgb(191, 179, 179);
+    height: 80px; 
+    margin: 0 20px; 
+    left: 790px;
+}

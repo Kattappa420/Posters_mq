@@ -1,0 +1,231 @@
+body{
+    background: black;
+}
+.poster{
+    width: 570px;
+    height: 650px;
+    background: linear-gradient(135deg, #008080, #004e92); /* Teal to dark blue */
+    /*background: linear-gradient(135deg, #b30000, #4d0000, #0a0a0a); /* Deadpool-inspired gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 2%;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    /* border: 8px solid #000; */
+}
+.doods{
+    opacity: 0.2;
+    z-index: 0;
+    position: absolute;
+}
+
+.n{
+    width: 40px;
+    top: 160px;
+    position: absolute;
+    left: 803px;
+}
+
+.bd{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    font-size: large;
+    top: 160px;
+    left: 580px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bd1{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    font-size: large;
+    top: 160px;
+    left: 842px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ad{
+    top: 52px;
+    width: 75px;
+    position: absolute;
+    font-size: xx-large;
+    left: 30%;
+}
+.adr{
+    top: 73px;
+    position: absolute;
+    font-size: small;
+    left: 33%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title{
+    top: 60px;
+    position: absolute;
+}
+
+.d3{
+    top: 45px;
+    width: 350px;
+    position: absolute;
+}
+  
+.h2{
+    top: 100px;
+    color: rgb(26, 16, 16);
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ic{
+    position: absolute;
+    top: 35px;
+    right: 37%;
+    width: 120px;
+    height: auto;
+}
+  
+
+
+.game1{
+    top: 238px;
+    position: absolute;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    /* transform: rotate(8deg); */
+    left: 560px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(94, 171, 174);
+}
+.game3{
+    top: 390px;
+    position: absolute;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    left: 560px;
+    /* transform: rotate(8deg); */
+    border: 1px solid black;
+    padding: 10px;
+}
+.game2{
+    top: 320px;
+    position: absolute;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    left: 900px;
+    /* transform: rotate(-8deg); */
+    border: 1px solid black;
+    padding: 10px;
+}
+.game4{
+    top: 470px;
+    position: absolute;
+    font-size: x-large;
+    /* transform: rotate(30deg); */
+    left: 53%;
+    /* transform: rotate(8deg); */
+    border: 1px solid black;
+    padding: 10px;
+}
+.det1{
+    top: 580px;
+    position: absolute;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    left: 32%;
+}
+.det2{
+    top: 580px;
+    position: absolute;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    left: 53%;
+}
+.separator {
+    top: 570px;
+    position: absolute;
+    width: 2px; /* Thickness of the line */
+    background-color: rgb(158, 145, 145); /* Color of the line */
+    height: 100px; /* Height of the line */
+    margin: 0 20px; /* Space around the separator */
+    left: 790px;
+}
+
+.im1{
+    position: absolute;
+    top: 220px;
+    left: 765px;
+    height: auto;
+}
+.im2{
+    top: 290px;
+    position: absolute;
+    left: 755px;
+    width: 100px;
+    height: auto;
+}   
+
+.im3{
+    position: absolute;
+    top: 370px;
+    left: 755px;
+    height: auto;
+}
+.im4{
+    top: 450px;
+    position: absolute;
+    left: 755px;
+    z-index: 1;
+    opacity: 1;
+    /* transform: rotate(deg); */
+}
+
+.bubble-background {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Ensure no bubbles overflow */
+}
+
+/* General bubble style */
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2); /* Light white with transparency */
+}
+
+/* Specific bubble sizes and positions */
+.bubble-1 {
+    width: 300px;
+    height: 300px;
+    top: 10px;
+    left: 550px;
+}
+
+.bubble-2 {
+    width: 400px;
+    height: 400px;
+    top: 300px;
+    left: 280px;
+}
+
+.bubble-3 {
+    width: 350px;
+    height: 350px;
+    top: 190px;
+    left: 600px;
+}
+
+.bubble-4 {
+    width: 250px;
+    height: 250px;
+    top: 450px;
+    left: 880px;
+}
+
